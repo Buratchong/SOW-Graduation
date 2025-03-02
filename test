@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SOW Graduation Invitation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #f3e7e9, #e3eeff);
+            color: #333;
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 5% auto;
+            padding: 40px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #4A4A8A;
+            font-size: 2.5rem;
+        }
+
+        p {
+            font-size: 1.1rem;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            margin-top: 20px;
+            font-size: 1rem;
+            color: white;
+            background-color: #4A4A8A;
+            text-decoration: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #36365D;
+        }
+
+        #program {
+            display: none;
+            text-align: left;
+            margin-top: 40px;
+        }
+
+        .program-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .program-table th, .program-table td {
+            padding: 12px;
+            border: 1px solid #ccc;
+        }
+
+        .program-table th {
+            background-color: #4A4A8A;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>You're Invited to the SOW Graduation Ceremony!</h1>
+
+        <p>We are excited to invite you to the <strong>SOW Graduation Ceremony</strong> to celebrate the achievements of our graduates.</p>
+
+        <p><strong>📅 Date:</strong> [Insert Date Here] <br>
+           <strong>📍 Venue:</strong> [Insert Venue Here] <br>
+           <strong>🕓 Time:</strong> 2:00 PM - 8:00 PM</p>
+
+        <p>Join us in honoring and celebrating the hard work and dedication of our graduates. Your presence will make this event even more special!</p>
+
+        <a class="btn" onclick="showProgram()">📜 View Program</a>
+
+        <div id="program">
+            <h2>🎓 SOW Graduation Program</h2>
+
+            <h3>Part 1: Worship Service</h3>
+            <table class="program-table">
+                <tr>
+                    <th>Time</th>
+                    <th>Activity</th>
+                    <th>Assigned To</th>
+                </tr>
+                <tr><td>2:00 PM - 2:15 PM</td><td>Assembly</td><td>—</td></tr>
+                <tr><td>2:15 PM - 2:30 PM</td><td>Ministerial</td><td>Pastor Edgar Sunga</td></tr>
+                <tr><td>2:30 PM - 2:35 PM</td><td>Welcome Remarks</td><td>Pastor Allan Mendoza</td></tr>
+                <tr><td>2:35 PM - 2:40 PM</td><td>Opening Prayer</td><td>Pastor Vic Albutra</td></tr>
+                <tr><td>2:40 PM - 3:00 PM</td><td>Praise and Worship</td><td>RC2 Worship Team</td></tr>
+                <tr><td>3:00 PM - 3:30 PM</td><td>Message</td><td>Pastor Chester Afurong</td></tr>
+                <tr><td>3:30 PM - 3:40 PM</td><td>SOW Graduates Dance Presentation</td><td>SOW Students</td></tr>
+                <tr><td>3:40 PM - 4:00 PM</td><td>Coffee Break and Snacks</td><td>—</td></tr>
+            </table>
+
+            <h3>Part 2: Graduation Proper</h3>
+            <table class="program-table">
+                <tr>
+                    <th>Time</th>
+                    <th>Activity</th>
+                    <th>Assigned To</th>
+                </tr>
+                <tr><td>4:00 PM - 4:40 PM</td><td>Processional & Entrance of Colors</td><td>All Candidates & Pastors</td></tr>
+                <tr><td>4:40 PM - 4:50 PM</td><td>Presentation of Candidates</td><td>Pastor Chester Afurong</td></tr>
+                <tr><td>4:50 PM - 5:50 PM</td><td>Distribution of Certificates & Awards</td><td>Emcees (A. Perly & A. Mitch)</td></tr>
+                <tr><td>5:50 PM - 6:00 PM</td><td>Congratulatory Speech</td><td>Pastor Joseph Dadofalza</td></tr>
+                <tr><td>6:05 PM - 6:20 PM</td><td>Awarding of Top Achievers (Top 10)</td><td>Pastor Chester Afurong</td></tr>
+                <tr><td>6:20 PM - 6:35 PM</td><td>Valedictory Speech</td><td>Highest Honor Student</td></tr>
+                <tr><td>6:55 PM - 7:00 PM</td><td>Graduation Song</td><td>The Graduates</td></tr>
+                <tr><td>7:05 PM - 7:10 PM</td><td>Closing Prayer</td><td>Pastor Mario</td></tr>
+                <tr><td>7:40 PM - 8:00 PM</td><td>Dinner</td><td>—</td></tr>
+            </table>
+
+        </div>
+    </div>
+
+    <script>
+        function showProgram() {
+            document.getElementById('program').style.display = 'block';
+        }
+    </script>
+
+</body>
+
+</html>
